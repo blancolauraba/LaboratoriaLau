@@ -9,6 +9,8 @@
      <meta name="viewport" content="width=device-width">
    
      <link href="style.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="./forms.css">
+     <script src="./app.js"></script>
       
  <title> Trivia lab </title>
  
@@ -16,23 +18,35 @@
    </head>
 
    <body style="background-color:blanchedalmondl;">
- <h1 {
-  style=  "text-align:center";>HI, THERE</h1>
- 
-
+ <h1 id="name-heading" style="text-align:center";>HI, THERE</h1>
 
 <div class="main">
+  <section>
+    <div id="form-wrapper" class="wrapper">
+      <div class="contact__container">
+          <div class="contact__title">
+              <h2>Datos del Jugador<hr></h2>
+  
+          </div>
+          <form action="index.html" id="userData" class="contact__form">
+              <label for="contact-name">Name</label>
+              <input id="contact-name" class="contact__form-input" type="text" placeholder="Mi Nombre" required>
+  
+              <label for="contact-email">Email</label>
+              <input id="contact-email" class="contact__form-input" type="email" placeholder="Mi E-mail" required>
+  
+              <label for="contact-msg">Mensaje de presentacion</label>
+              <textarea id="contact-msg" class="contact__form-textarea" type="text" placeholder="Observaciones..."></textarea>
+  
+              <input id="submit-btn" type="submit" value="Empezar">
+          </form>
+      </div>
+  </div>
+  </section>
 <section id="landing-page">
-  <h1>Cual es tu nombre?<h1>
-
-  <form action="/initial-page" id="form1">
-  <label for=" name"> Nombre:</label>
-  <input type="text" id="name" name="name"><br><br>
-  <button onclick="ShowLandingOnly()">EMPEZAR</button>
-
-
-</form>
-
+  <h3 id="payer-name"></h3>
+  <p id="player-email"></p>
+  <q id="player-theme"></q>
 </section>
 
 
@@ -90,7 +104,5 @@
  
 </section>
 </div>
-
-     <script src="script.js"></script>
    </body>
  </html>  
