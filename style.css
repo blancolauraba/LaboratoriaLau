@@ -1,0 +1,50 @@
+
+body {
+
+  justify-content: center;
+  align-items: center;
+  background-color: lightyellow;
+  line-height: 2;
+  font-family: "Lucida Console", Courier, monospace;
+  
+  
+  
+  }
+
+
+ section{
+
+font-family: "Lucida Console", Courier, monospace;
+text-align: center;
+
+
+ 
+
+  }
+  
+  
+  button{
+    text-decoration: lightcoral;
+    font-weight: 600;
+    color: palevioletred;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color:pink;
+    border-color: black;
+    border-radius: 35px;
+    
+  }
+  form{
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  font-family: "Lucida Console", Courier, monospace;
+  }
+  
+  
+ 
+ 
+ 
+
